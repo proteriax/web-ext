@@ -1,0 +1,265 @@
+{
+  "alarms": {
+    "clear": [0, 1],
+    "clearAll": [0, 0],
+    "get": [0, 1],
+    "getAll": [0, 0]
+  },
+  "bookmarks": {
+    "create": [1, 1],
+    "get": [1, 1],
+    "getChildren": [1, 1],
+    "getRecent": [1, 1],
+    "getSubTree": [1, 1],
+    "getTree": [0, 0],
+    "move": [2, 2],
+    "remove": [1, 1],
+    "removeTree": [1, 1],
+    "search": [1, 1],
+    "update": [2, 2]
+  },
+  "browserAction": {
+    "disable": {
+      "min": 0,
+      "max": 1,
+      "fallbackToNoCallback": true
+    },
+    "enable": {
+      "min": 0,
+      "max": 1,
+      "fallbackToNoCallback": true
+    },
+    "getBadgeBackgroundColor": [1, 1],
+    "getBadgeText": [1, 1],
+    "getPopup": [1, 1],
+    "getTitle": [1, 1],
+    "openPopup": [0, 0],
+    "setBadgeBackgroundColor": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    },
+    "setBadgeText": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    },
+    "setIcon": [1, 1],
+    "setPopup": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    },
+    "setTitle": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    }
+  },
+  "browsingData": {
+    "remove": [2, 2],
+    "removeCache": [1, 1],
+    "removeCookies": [1, 1],
+    "removeDownloads": [1, 1],
+    "removeFormData": [1, 1],
+    "removeHistory": [1, 1],
+    "removeLocalStorage": [1, 1],
+    "removePasswords": [1, 1],
+    "removePluginData": [1, 1],
+    "settings": [0, 0]
+  },
+  "commands": {
+    "getAll": [0, 0]
+  },
+  "contextMenus": {
+    "remove": [1, 1],
+    "removeAll": [0, 0],
+    "update": [2, 2]
+  },
+  "cookies": {
+    "get": [1, 1],
+    "getAll": [1, 1],
+    "getAllCookieStores": [0, 0],
+    "remove": [1, 1],
+    "set": [1, 1]
+  },
+  "devtools": {
+    "inspectedWindow": {
+      "eval": {
+        "min": 1,
+        "max": 2,
+        "singleCallbackArg": false
+      }
+    },
+    "panels": {
+      "create": {
+        "min": 3,
+        "max": 3,
+        "singleCallbackArg": true
+      }
+    }
+  },
+  "downloads": {
+    "cancel": [1, 1],
+    "download": [1, 1],
+    "erase": [1, 1],
+    "getFileIcon": [1, 2],
+    "open": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    },
+    "pause": [1, 1],
+    "removeFile": [1, 1],
+    "resume": [1, 1],
+    "search": [1, 1],
+    "show": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    }
+  },
+  "extension": {
+    "isAllowedFileSchemeAccess": [0, 0],
+    "isAllowedIncognitoAccess": [0, 0]
+  },
+  "history": {
+    "addUrl": [1, 1],
+    "deleteAll": [0, 0],
+    "deleteRange": [1, 1],
+    "deleteUrl": [1, 1],
+    "getVisits": [1, 1],
+    "search": [1, 1]
+  },
+  "i18n": {
+    "detectLanguage": [1, 1],
+    "getAcceptLanguages": [0, 0]
+  },
+  "identity": {
+    "launchWebAuthFlow": [1, 1]
+  },
+  "idle": {
+    "queryState": [1, 1]
+  },
+  "management": {
+    "get": [1, 1],
+    "getAll": [0, 0],
+    "getSelf": [0, 0],
+    "setEnabled": [2, 2],
+    "uninstallSelf": [0, 1]
+  },
+  "notifications": {
+    "clear": [1, 1],
+    "create": [1, 2],
+    "getAll": [0, 0],
+    "getPermissionLevel": [0, 0],
+    "update": [2, 2]
+  },
+  "pageAction": {
+    "getPopup": [1, 1],
+    "getTitle": [1, 1],
+    "hide": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    },
+    "setIcon": [1, 1],
+    "setPopup": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    },
+    "setTitle": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    },
+    "show": {
+      "min": 1,
+      "max": 1,
+      "fallbackToNoCallback": true
+    }
+  },
+  "permissions": {
+    "contains": [1, 1],
+    "getAll": [0, 0],
+    "remove": [1, 1],
+    "request": [1, 1]
+  },
+  "runtime": {
+    "getBackgroundPage": [0, 0],
+    "getPlatformInfo": [0, 0],
+    "openOptionsPage": [0, 0],
+    "requestUpdateCheck": [0, 0],
+    "sendMessage": [1, 3],
+    "sendNativeMessage": [2, 2],
+    "setUninstallURL": [1, 1]
+  },
+  "sessions": {
+    "getDevices": [0, 1],
+    "getRecentlyClosed": [0, 1],
+    "restore": [0, 1]
+  },
+  "storage": {
+    "local": {
+      "clear": [0, 0],
+      "get": [0, 1],
+      "getBytesInUse": [0, 1],
+      "remove": [1, 1],
+      "set": [1, 1]
+    },
+    "managed": {
+      "get": [0, 1],
+      "getBytesInUse": [0, 1]
+    },
+    "sync": {
+      "clear": [0, 0],
+      "get": [0, 1],
+      "getBytesInUse": [0, 1],
+      "remove": [1, 1],
+      "set": [1, 1]
+    }
+  },
+  "tabs": {
+    "captureVisibleTab": [0, 2],
+    "create": [1, 1],
+    "detectLanguage": [0, 1],
+    "discard": [0, 1],
+    "duplicate": [1, 1],
+    "executeScript": [1, 2],
+    "get": [1, 1],
+    "getCurrent": [0, 0],
+    "getZoom": [0, 1],
+    "getZoomSettings": [0, 1],
+    "highlight": [1, 1],
+    "insertCSS": [1, 2],
+    "move": [2, 2],
+    "query": [1, 1],
+    "reload": [0, 2],
+    "remove": [1, 1],
+    "removeCSS": [1, 2],
+    "sendMessage": [2, 3],
+    "setZoom": [1, 2],
+    "setZoomSettings": [1, 2],
+    "update": [1, 2]
+  },
+  "topSites": {
+    "get": [0, 0]
+  },
+  "webNavigation": {
+    "getAllFrames": [1, 1],
+    "getFrame": [1, 1]
+  },
+  "webRequest": {
+    "handlerBehaviorChanged": [0, 0]
+  },
+  "windows": {
+    "create": [0, 1],
+    "get": [1, 2],
+    "getAll": [0, 1],
+    "getCurrent": [0, 1],
+    "getLastFocused": [0, 1],
+    "remove": [1, 1],
+    "update": [2, 2]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "webext",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "repository": "git@github.com:proteriax/webext.git",
+  "author": "proteriax <8125011+proteriax@users.noreply.github.com>",
+  "license": "MPL-2.0",
+  "scripts": {
+    "build": "tsc && prettier --write ./lib/index.js && ./scripts/build.js"
+  },
+  "dependencies": {
+    "webextension-polyfill-ts": "0.19.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "tabWidth": 2,
+    "printWidth": 90,
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "es5"
+  }
+}
